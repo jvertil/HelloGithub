@@ -7,12 +7,19 @@
     tools:context="com.example.jvertil.hellogithub.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/home_screen_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_activity_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_btn_text"
+        android:onClick="bntClicked"/>
 
 </android.support.constraint.ConstraintLayout>
