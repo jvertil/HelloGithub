@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnClicked(View v) {
         Context context = getApplicationContext();
-        CharSequence text = "Button Clicked!";
+        CharSequence text = "Button Clicked!!!";
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
